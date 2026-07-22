@@ -1,6 +1,4 @@
 __pycache__/
 *.pyc
 
-report.csv
-report.json
-report.xlsx
+report.txt
