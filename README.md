@@ -1,18 +1,21 @@
-# 📂 File Organizer
+# 🔗 Website Link Checker
 
-A Python application that automatically organizes files into folders based on their file extensions and generates a report.
+A Python tool that scans a website, extracts all links, checks whether each link is working or broken, and exports the results.
 
 ## Features
 
-- Organizes files by type
-- Creates folders automatically
-- Prevents duplicate moves
-- Generates a report with statistics
-- Records the operation date and time
+- Download a webpage
+- Extract all links
+- Convert relative URLs to absolute URLs
+- Check each link
+- Export results to:
+  - CSV
+  - JSON
+  - Excel (.xlsx)
 
 ## Technologies
 
 - Python
-- os
-- shutil
-- datetime
+- Requests
+- BeautifulSoup4
+- openpyxl
